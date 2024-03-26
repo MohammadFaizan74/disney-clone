@@ -1,0 +1,12 @@
+import React from 'react'
+
+const HeaderItem = ({name,Icons}) => {
+  return (
+    <div className='flex items-center gap-3 text-[18px] font-semibold cursor-pointer hover:underline underline-offset-8 mb-2'>
+        <Icons/>
+        <h2 className=''>{name}</h2>
+    </div>
+  )
+}
+
+export default HeaderItem
