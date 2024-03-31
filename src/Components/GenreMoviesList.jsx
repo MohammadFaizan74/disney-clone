@@ -8,7 +8,7 @@ const GenreMoviesList = () => {
         {GenresList.genere.map((item,index)=>index<=4&&(
             <div className='p-8 px-8 md:px-16'>
                 <h2 className='text-[20px] text-black font-bold'>{item.name}</h2>
-                <MoviesList genereId={item.id}/>
+                <MoviesList genereId={item.id} index_={index}/>
 
                 </div>
         ))}
